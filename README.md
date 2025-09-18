@@ -6,7 +6,7 @@
 </h2>
 
 <h2 align="center">
-    Ứng dụng Nhắn Tin
+    Ứng dụng Gửi Tin Nhắn broadcast Qua UDP
 </h2>
 
 <div align="center">
