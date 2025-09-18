@@ -20,7 +20,6 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
-# Ứng dụng Nhắn Tin
 
 Đề tài này xây dựng một **ứng dụng nhắn tin trực tuyến** cho phép người dùng trò chuyện qua giao diện web.  
 Hệ thống được thiết kế với giao diện đơn giản, dễ sử dụng và hỗ trợ giao tiếp theo thời gian thực.
