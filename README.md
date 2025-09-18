@@ -21,25 +21,35 @@
 
 </div>
 
-Đề tài này xây dựng một **ứng dụng nhắn tin trực tuyến** cho phép người dùng trò chuyện qua giao diện web.  
-Hệ thống được thiết kế với giao diện đơn giản, dễ sử dụng và hỗ trợ giao tiếp theo thời gian thực.
+## 1. Giới thiệu hệ thống
+
+**Ứng dụng Nhắn Tin** được xây dựng theo mô hình **Client–Server**, cho phép nhiều người dùng trò chuyện trực tuyến với nhau thông qua giao diện web.  
+
+👉 **Điểm nổi bật**:
+- Gửi và nhận tin nhắn theo thời gian thực.  
+- Hỗ trợ tạo và tham gia nhiều phòng chat.  
+- Hiển thị danh sách người dùng đang online.  
+- Giao diện thân thiện, dễ sử dụng, trực quan.  
 
 ---
 
-## 👨‍💻 Tác giả
-**Hoàng Anh Tú**
+## 🔧 2. Công nghệ & Ngôn ngữ sử dụng
+
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)  
+[![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)  
+[![Socket.io](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io/)  
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)  
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)  
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)  
+
+**Chi tiết công nghệ:**
+- **Node.js + Express**: Xây dựng backend server.  
+- **Socket.IO**: Giao tiếp thời gian thực giữa client và server.  
+- **HTML/CSS/JavaScript**: Xây dựng giao diện web.  
 
 ---
 
-## ⚙️ Chức năng chính
-- Gửi và nhận tin nhắn tức thì.  
-- Tạo và tham gia phòng chat.  
-- Hiển thị người dùng đang tham gia.  
-- Giao diện thân thiện, dễ sử dụng.  
-
----
-
-## 📸 Demo
+## 🚀 3. Một số hình ảnh
 
 ### Cấu trúc chương trình
 ![Cấu trúc chương trình](demo/1.png)
@@ -52,6 +62,33 @@ Hệ thống được thiết kế với giao diện đơn giản, dễ sử d�
 
 ---
 
-## 📄 License
-Dự án phục vụ mục đích học tập và nghiên cứu.  
-Bạn có thể sử dụng và chỉnh sửa tự do.
+## 📝 4. Các bước cài đặt
+
+### Yêu cầu hệ thống:
+- Node.js 16+  
+- Trình duyệt web (Chrome, Edge, Firefox, …)  
+
+### Cài đặt và chạy:
+```bash
+# Cài đặt các thư viện cần thiết
+npm install
+
+# Chạy server
+npm start
+```
+
+Sau đó mở trình duyệt và truy cập:  
+```
+http://localhost:3000
+```
+
+---
+
+## 👨‍💻 5. Tác giả
+**Hoàng Anh Tú**
+
+---
+
+## 📄 6. License
+Dự án phục vụ mục đích **học tập và nghiên cứu**.  
+Bạn có thể tự do sử dụng và chỉnh sửa.
