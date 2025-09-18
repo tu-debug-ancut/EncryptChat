@@ -1,4 +1,4 @@
-# LTM-1604-D14--G-i-tin-nh-n-Broadcast-qua-UDP1
+# LTM-1604-D14--G-i-tin-nh-n-Broadcast-qua-UDP
 <h2 align="center">
     <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
         🎓 Faculty of Information Technology (DaiNam University)
