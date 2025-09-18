@@ -21,13 +21,13 @@ Hệ thống được thiết kế với giao diện đơn giản, dễ sử d�
 ## 📸 Demo
 
 ### Cấu trúc chương trình
-![Cấu trúc chương trình](demo/Cấu trúc chương trình.png)
+![Cấu trúc chương trình](demo/1.png)
 
 ### Luồng xử lý
-![Luồng xử lý](demo/Luông xử lý.png)
+![Luồng xử lý](demo/2.png)
 
 ### Giao diện ứng dụng
-![Giao diện](demo/Giao diên.png)
+![Giao diện](demo/3.png)
 
 ---
 
