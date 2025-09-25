@@ -1,4 +1,4 @@
-# LTM-1604-D14--G-i-tin-nh-n-Broadcast-qua-UDP
+# LTM-1604 Gửi tin nhắn Broadcast qua UDP
 <h2 align="center">
     <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
         🎓 Faculty of Information Technology (DaiNam University)
@@ -36,60 +36,53 @@
 
 ## 🔧 2. Công nghệ & Ngôn ngữ sử dụng
 
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)  
-[![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)  
-[![Socket.io](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io/)  
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)  
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)  
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)  
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/technologies/javase-downloads.html)  
+[![UDP](https://img.shields.io/badge/UDP%20Multicast-00599C?style=for-the-badge&logo=socket.io&logoColor=white)](https://docs.oracle.com/javase/tutorial/networking/datagrams/)   
+[![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white)](https://www.eclipse.org/)  
+[![NetBeans](https://img.shields.io/badge/NetBeans-1B6AC6?style=for-the-badge&logo=apachenetbeanside&logoColor=white)](https://netbeans.apache.org/)  
 
-**Chi tiết công nghệ:**
-- **Node.js + Express**: Xây dựng backend server.  
-- **Socket.IO**: Giao tiếp thời gian thực giữa client và server.  
-- **HTML/CSS/JavaScript**: Xây dựng giao diện web.  
 
 ---
 
 ## 🚀 3. Một số hình ảnh
 
-### Cấu trúc chương trình
+### Giao diện đăng nhập
 ![Cấu trúc chương trình](demo/1.png)
 
-### Luồng xử lý
+### Giao diện chat room
 ![Luồng xử lý](demo/2.png)
 
-### Giao diện ứng dụng
+### Giao diện tạo room
 ![Giao diện](demo/3.png)
 
 ---
 
-## 📝 4. Các bước cài đặt
+## ⚙️ 4. Các bước cài đặt & chạy
 
-### Yêu cầu hệ thống:
-- Node.js 16+  
-- Trình duyệt web (Chrome, Edge, Firefox, …)  
+🔧 **Bước 1. Chuẩn bị môi trường**
+- Cài đặt **JDK 8 hoặc 11**.  
+- IDE khuyến nghị: **Eclipse** hoặc **NetBeans**.  
 
-### Cài đặt và chạy:
-```bash
-# Cài đặt các thư viện cần thiết
-npm install
+📦 **Bước 2. Tải project**
+- Clone repository từ GitHub:  
+  ```bash
+  git clone https://github.com/username/udp-multicast-chat.git
+  cd udp-multicast-chat
 
-# Chạy server
-npm start
-```
-
-Sau đó mở trình duyệt và truy cập:  
-```
-http://localhost:3000
-```
 
 ---
 
-## 👨‍💻 5. Tác giả
-**Hoàng Anh Tú**
+## 📌 5. Ý nghĩa ứng dụng
+- Rèn luyện kỹ năng sử dụng **UDP Socket**.  
+- Hiểu rõ hơn về **lập trình mạng phân tán**.  
+- Làm nền tảng mở rộng sang **TCP/HTTP WebSocket** hoặc **chat server phân tán** trong tương lai.  
 
 ---
 
-## 📄 6. License
-Dự án phục vụ mục đích **học tập và nghiên cứu**.  
-Bạn có thể tự do sử dụng và chỉnh sửa.
+## 👨‍💻 6. Liên hệ (cá nhân)
+
+Contact me:  
+
+📌 **Họ tên:** [Hoàng Anh Tú] – CNTT K16-04  
+📌 **Khoa:** Công nghệ thông tin – Trường Đại học Đại Nam  
+📌 **Email:** [anhtu@gmail.com]  
